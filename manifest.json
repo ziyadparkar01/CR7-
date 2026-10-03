@@ -1,0 +1,31 @@
+{
+  "name": "CR7 — The Immortal Legacy",
+  "version": "1.0.0",
+  "description": "Premium 3D scroll-animated biography website for Cristiano Ronaldo",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": [
+    "bio",
+    "sports",
+    " Ronaldo",
+    "3D",
+    "GSAP",
+    "interactive",
+    "portfolio"
+  ],
+  "repository": "https://github.com/yourusername/ronaldo-biography",
+  "homepage": "https://yourusername.github.io/ronaldo-biography",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.12.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vite": "^4.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

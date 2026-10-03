@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CR7 — THE IMMORTAL LEGACY | 3D Interactive Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Oswald:wght@500;700;900&family=Space+Grotesk:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Fullscreen 3D WebGL Canvas -->
+  <div id="webgl-container"></div>
+
+  <!-- Ambient Cinematic Overlay FX -->
+  <div class="cinema-vignette"></div>
+  <div class="cyber-grid"></div>
+  <div class="scanlines"></div>
+
+  <!-- Modern Audio / Status HUD Bar -->
+  <header class="hud-nav">
+    <div class="hud-left">
+      <a href="#hero" class="brand-badge">
+        <span class="pulse-dot"></span>
+        <span class="brand-text">CR7</span>
+        <span class="hud-tag">EDITION // ∞</span>
+      </a>
+    </div>
+    <nav class="hud-links">
+      <a href="#act1" class="hud-link"><span class="link-num">01</span> MADEIRA</a>
+      <a href="#act2" class="hud-link"><span class="link-num">02</span> RED DEVIL</a>
+      <a href="#act3" class="hud-link"><span class="link-num">03</span> GALÁCTICO</a>
+      <a href="#act4" class="hud-link"><span class="link-num">04</span> IMMORTAL</a>
+    </nav>
+    <div class="hud-right">
+      <div class="scroll-tracker">
+        <span class="hud-label">DEPTH</span>
+        <span id="depth-meter">000%</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Top Progress Bar -->
+  <div class="progress-track">
+    <div class="progress-fill" id="progressFill"></div>
+  </div>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="section hero-section" id="hero">
+    <div class="hero-center">
+      <div class="hero-tagline-wrap">
+        <span class="hud-code">[ ARCHIVE // PROTOCOL 07 ]</span>
+        <span class="hero-status">SYSTEM ONLINE</span>
+      </div>
+
+      <h1 class="monumental-title" style="font-size:clamp(3rem,10vw,7rem);position:relative;line-height:1.1;margin-bottom:1rem;">
+        <span style="color:#fff;display:block;text-shadow:0 0 40px rgba(212,175,55,0.3);">CRISTIANO RONALDO</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        THE DEFINING PHENOMENON OF MODERN ATHLETICISM.
+        PRECISION. OBSESSION. IMMORTALITY.
+      </p>
+
+      <div class="hero-badge-row">
+        <div class="hud-pill"><span class="pill-dot gold"></span> 5× BALLON D'OR</div>
+        <div class="hud-pill"><span class="pill-dot crimson"></span> 5× CHAMPIONS LEAGUE</div>
+        <div class="hud-pill"><span class="pill-dot cyan"></span> 850+ OFFICIAL GOALS</div>
+      </div>
+
+      <div class="scroll-prompt">
+        <div class="mouse-icon">
+          <div class="mouse-wheel"></div>
+        </div>
+        <span class="prompt-text">SCROLL TO ENGAGE 3D FLIGHT</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACT I: MADEIRA ==================== -->
+  <section class="section chapter-section" id="act1" data-theme="emerald">
+    <div class="section-bg-num">01</div>
+    <div class="content-container">
+      <div class="chapter-header">
+        <div class="chapter-meta">
+          <span class="act-badge">ACT 01</span>
+          <span class="act-years">1985 — 2003</span>
+        </div>
+        <h2 class="chapter-headline">THE BOY FROM <span class="highlight-gold">MADEIRA</span></h2>
+        <p class="chapter-lead">From the volcanic mist of Funchal to the neon lights of Lisbon. The birth of an unstoppable force.</p>
+      </div>
+
+      <div class="cards-3d-grid">
+        <!-- 3D Card 1 -->
+        <div class="card-3d" data-tilt>
+          <div class="card-glass">
+            <div class="holo-stage holo-madeira">
+              <div class="geo-ring r1"></div>
+              <div class="geo-ring r2"></div>
+              <div class="geo-core">
+                <span class="geo-icon">⚓</span>
+              </div>
+              <div class="holo-data">LOC // 32.6669° N, 16.9241° W</div>
+            </div>
+            <div class="card-body">
+              <span class="card-index">ERA 1985</span>
+              <h3 class="card-title">VOLCANIC GENESIS</h3>
+              <p class="card-text">Born in the working-class parish of Santo António, Funchal. Raw hunger forged on steep cobbled island streets with makeshift footballs.</p>
+              <div class="card-metrics">
+                <div><span>ORIGIN</span><b>MADEIRA</b></div>
+                <div><span>ACADEMY</span><b>ANDORINHA</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Card 2 -->
+        <div class="card-3d" data-tilt>
+          <div class="card-glass">
+            <div class="holo-stage holo-sporting">
+              <div class="geo-shield">
+                <div class="shield-line"></div>
+                <div class="shield-circle"></div>
+                <div class="shield-cross"></div>
+              </div>
+              <div class="holo-data">LISBON // ACADEMY METRICS</div>
+            </div>
+            <div class="card-body">
+              <span class="card-index">ERA 1997</span>
+              <h3 class="card-title">SPORTING CP ASCENSION</h3>
+              <p class="card-text">At age 12, leaving his family behind for mainland Lisbon. The only player to advance through five youth tiers in a single season.</p>
+              <div class="card-metrics">
+                <div><span>DEBUT</span><b>AGE 17</b></div>
+                <div><span>LEAGUE</span><b>PRIMEIRA LIGA</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Card 3 -->
+        <div class="card-3d highlight-card" data-tilt>
+          <div class="card-glass">
+            <div class="holo-stage holo-scout">
+              <div class="radar-sweep"></div>
+              <div class="radar-dot d1"></div>
+              <div class="radar-dot d2"></div>
+              <div class="holo-data">AUGUST 6, 2003 // SCOUT ALERT</div>
+            </div>
+            <div class="card-body">
+              <span class="card-index">THE CATALYST</span>
+              <h3 class="card-title">THE MATCH THAT CHANGED HISTORY</h3>
+              <p class="card-text">Sporting 3–1 Man United. Sir Alex Ferguson refuses to leave Lisbon without him. £12.24M makes him the most expensive teen in English history.</p>
+              <div class="card-metrics">
+                <div><span>TRANSFER</span><b>£12.24M</b></div>
+                <div><span>DESTINATION</span><b>OLD TRAFFORD</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACT II: RED DEVIL ==================== -->
+  <section class="section chapter-section" id="act2" data-theme="crimson">
+    <div class="section-bg-num">02</div>
+    <div class="content-container">
+      <div class="chapter-header">
+        <div class="chapter-meta">
+          <span class="act-badge crimson-badge">ACT 02</span>
+          <span class="act-years">2003 — 2009</span>
+        </div>
+        <h2 class="chapter-headline">RED DEVIL <span class="highlight-crimson">RISING</span></h2>
+        <p class="chapter-lead">Inheriting the legendary No. 7 shirt. Transformative physicality, unstoppable stepovers, and world domination.</p>
+      </div>
+
+      <div class="cards-3d-grid">
+        <div class="card-3d" data-tilt>
+          <div class="card-glass">
+            <div class="holo-stage holo-united">
+              <div class="num-7-holo">7</div>
+              <div class="energy-orbit"></div>
+              <div class="holo-data">THE ICONIC SHIRT // BEST • ROBSON • CANTONA • BECKHAM</div>
+            </div>
+            <div class="card-body">
+              <span class="card-index">THE INHERITANCE</span>
+              <h3 class="card-title">MANTLE OF THE NUMBER 7</h3>
+              <p class="card-text">Asked for #28. Ferguson insisted on #7. The audacious trickster transformed into a ruthless, athletic aerial machine under Sir Alex's mentorship.</p>
+              <div class="card-metrics">
+                <div><span>HONOUR</span><b>FA CUP 2004</b></div>
+                <div><span>EVOLUTION</span><b>STEP-OVERS TO POWER</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-3d highlight-card" data-tilt>
+          <div class="card-glass">
+            <div class="holo-stage holo-ballon">
+              <div class="trophy-hologram">
+                <div class="trophy-orb"></div>
+                <div class="trophy-rays"></div>
+                <div class="trophy-pedestal"></div>
+              </div>
+              <div class="holo-data">MOSCOW 2008 // BALLON D'OR #1</div>
+            </div>
+            <div class="card-body">
+              <span class="card-index">PINNACLE 2008</span>
+              <h3 class="card-title">THE DOUBLE CROWN</h3>
+              <p class="card-text">42 goals across all competitions. Champions League triumph in the rain of Moscow. His first Ballon d'Or and FIFA World Player of the Year at age 23.</p>
+              <div class="card-metrics">
+                <div><span>GOALS</span><b>42 IN 49</b></div>
+                <div><span>TROPHIES</span><b>UCL + PREMIER LEAGUE</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-3d" data-tilt>
+          <div class="card-glass">
+            <div class="holo-stage holo-puskas">
+              <div class="trajectory-arc">
+                <div class="ball-streak"></div>
+              </div>
+              <div class="holo-data">40 YARDS // 103 KM/H VS PORTO</div>
+            </div>
+            <div class="card-body">
+              <span class="card-index">INAUGURAL PUSKÁS</span>
+              <h3 class="card-title">THE ROCKET AT THE DRAGÃO</h3>
+              <p class="card-text">A 40-yard thunderbolt against FC Porto that won FIFA's first-ever Puskás Award for the greatest goal in world football.</p>
+              <div class="card-metrics">
+                <div><span>SPEED</span><b>103 KM/H</b></div>
+                <div><span>AWARD</span><b>FIFA PUSKÁS 2009</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACT III: GALÁCTICO ==================== -->
+  <section class="section chapter-section" id="act3" data-theme="gold">
+    <div class="section-bg-num">03</div>
+    <div class="content-container">
+      <div class="chapter-header">
+        <div class="chapter-meta">
+          <span class="act-badge gold-badge">ACT 03</span>
+          <span class="act-years">2009 — 2018</span>
+        </div>
+        <h2 class="chapter-headline">THE <span class="highlight-gold">GALÁCTICO</span> DYNASTY</h2>
+        <p class="chapter-lead">80,000 at the Bernabéu unveil. 450 goals in 438 matches. Four Champions League crowns in five historic seasons.</p>
+      </div>
+
+      <div class="showcase-3d-layout">
+        <!-- Main centerpiece card -->
+        <div class="centerpiece-card card-3d" data-tilt>
+          <div class="card-glass">
+            <div class="holo-stage holo-ucl">
+              <div class="ucl-stars-ring">
+                <span class="ucl-star s1">★</span>
+                <span class="ucl-star s2">★</span>
+                <span class="ucl-star s3">★</span>
+                <span class="ucl-star s4">★</span>
+                <span class="ucl-star s5">★</span>
+              </div>
+              <div class="ucl-center">
+                <div class="ucl-emblem">4×</div>
+                <div class="ucl-sub">CHAMPIONS LEAGUE</div>
+              </div>
+              <div class="holo-data">LA DÉCIMA • LA UNDÉCIMA • LA DUODÉCIMA • LA DECIMOTERCERA</div>
+            </div>
+            <div class="card-body">
+              <span class="card-index">REAL MADRID // ALL-TIME RECORD</span>
+              <h3 class="card-title">450 GOALS IN 438 MATCHES</h3>
+              <p class="card-text">Surpassing Raúl's all-time record in less than half the appearances. An impossible 1.03 goals-per-game average over 9 legendary seasons in white.</p>
+
+              <div class="tactical-strip">
+                <div class="t-col"><span>BALLON D'OR</span><b>4 TROPHIES</b></div>
+                <div class="t-col"><span>EL CLÁSICO</span><b>18 GOALS AT CAMP NOU</b></div>
+                <div class="t-col"><span>ALL-TIME UCL</span><b>140 GOALS (#1)</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3D Stat cubes column -->
+        <div class="stat-cubes-col">
+          <div class="stat-cube card-3d" data-tilt>
+            <div class="cube-inner">
+              <div class="cube-glow"></div>
+              <span class="cube-num" data-count="450">0</span>
+              <span class="cube-label">MADRID GOALS</span>
+              <span class="cube-sub">438 APPEARANCES</span>
+            </div>
+          </div>
+
+          <div class="stat-cube card-3d" data-tilt>
+            <div class="cube-inner">
+              <div class="cube-glow gold"></div>
+              <span class="cube-num" data-count="17">0</span>
+              <span class="cube-label">RECORD UCL SEASON</span>
+              <span class="cube-sub">GOALS IN 2013-14</span>
+            </div>
+          </div>
+
+          <div class="stat-cube card-3d" data-tilt>
+            <div class="cube-inner">
+              <div class="cube-glow crimson"></div>
+              <span class="cube-num">2.38m</span>
+              <span class="cube-label">BICYCLE KICK JUMP</span>
+              <span class="cube-sub">TURIN // APRIL 3, 2018</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ACT IV: IMMORTAL LEGACY ==================== -->
+  <section class="section chapter-section" id="act4" data-theme="cyber">
+    <div class="section-bg-num">04</div>
+    <div class="content-container">
+      <div class="chapter-header">
+        <div class="chapter-meta">
+          <span class="act-badge cyber-badge">ACT 04</span>
+          <span class="act-years">2018 — BEYOND</span>
+        </div>
+        <h2 class="chapter-headline">THE <span class="highlight-cyan">IMMORTAL</span> LEGACY</h2>
+        <p class="chapter-lead">Juventus, Old Trafford return, Al-Nassr, and the pursuit of 1,000 career goals. Redefining human longevity.</p>
+      </div>
+
+      <!-- Cybernetic Stats Matrix Dashboard -->
+      <div class="cyber-dashboard card-3d" data-tilt>
+        <div class="dash-hud-header">
+          <div class="hud-tab active">LIVE CAREER TELEMETRY</div>
+          <div class="hud-status-indicator">
+            <span class="live-dot"></span> FEED: VERIFIED OFFICIAL
+          </div>
+        </div>
+
+        <div class="dash-grid-stats">
+          <div class="dash-cell">
+            <div class="dash-top">
+              <span class="dash-tag">OFFICIAL RECORD</span>
+              <span class="dash-icon">⚡</span>
+            </div>
+            <div class="dash-val"><span data-count="900">0</span><span class="plus">+</span></div>
+            <div class="dash-name">CAREER GOALS</div>
+            <div class="meter-bar"><div class="meter-fill" style="width: 95%;"></div></div>
+            <div class="dash-detail">All-time top scorer in football history</div>
+          </div>
+
+          <div class="dash-cell">
+            <div class="dash-top">
+              <span class="dash-tag">NATIONAL PRIDE</span>
+              <span class="dash-icon">🇵🇹</span>
+            </div>
+            <div class="dash-val"><span data-count="132">0</span></div>
+            <div class="dash-name">INTERNATIONAL GOALS</div>
+            <div class="meter-bar"><div class="meter-fill" style="width: 98%;"></div></div>
+            <div class="dash-detail">World #1 all-time international scorer</div>
+          </div>
+
+          <div class="dash-cell">
+            <div class="dash-top">
+              <span class="dash-tag">HONOURS</span>
+              <span class="dash-icon">🏆</span>
+            </div>
+            <div class="dash-val"><span data-count="35">0</span></div>
+            <div class="dash-name">MAJOR TROPHIES</div>
+            <div class="meter-bar"><div class="meter-fill" style="width: 90%;"></div></div>
+            <div class="dash-detail">Titles in England, Spain, Italy & Saudi</div>
+          </div>
+
+          <div class="dash-cell">
+            <div class="dash-top">
+              <span class="dash-tag">LONGEVITY</span>
+              <span class="dash-icon">🧬</span>
+            </div>
+            <div class="dash-val"><span data-count="1230">0</span><span class="plus">+</span></div>
+            <div class="dash-name">MATCHES PLAYED</div>
+            <div class="meter-bar"><div class="meter-fill" style="width: 92%;"></div></div>
+            <div class="dash-detail">Over 22 consecutive seasons at elite tier</div>
+          </div>
+
+          <div class="dash-cell">
+            <div class="dash-top">
+              <span class="dash-tag">EUROPEAN SUPREMACY</span>
+              <span class="dash-icon">⭐</span>
+            </div>
+            <div class="dash-val"><span data-count="140">0</span></div>
+            <div class="dash-name">CHAMPIONS LEAGUE GOALS</div>
+            <div class="meter-bar"><div class="meter-fill" style="width: 100%;"></div></div>
+            <div class="dash-detail">7× Top Scorer • Most knock-out goals</div>
+          </div>
+
+          <div class="dash-cell">
+            <div class="dash-top">
+              <span class="dash-tag">CLUTCH METRIC</span>
+              <span class="dash-icon">🎯</span>
+            </div>
+            <div class="dash-val"><span data-count="66">0</span></div>
+            <div class="dash-name">CAREER HATTRICKS</div>
+            <div class="meter-bar"><div class="meter-fill" style="width: 88%;"></div></div>
+            <div class="dash-detail">Hattricks in 3 different decades</div>
+          </div>
+        </div>
+
+        <!-- Quote terminal -->
+        <div class="quote-terminal">
+          <div class="terminal-prompt">$ quote --cr7 --doctrine</div>
+          <p class="quote-text">"Your love makes me strong. Your hate makes me unstoppable."</p>
+          <span class="terminal-sig">— CRISTIANO RONALDO DOS SANTOS AVEIRO</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="cinematic-footer">
+    <div class="footer-top">
+      <div class="footer-brand">CR7</div>
+      <p class="footer-motto">THE PURSUIT OF PERFECTION HAS NO EXPIRATION DATE.</p>
+    </div>
+    <div class="footer-bottom">
+      <span>IMMORTAL ARCHIVE // DIGITAL EXPERIENCE</span>
+      <span class="mono-credits">CRAFTED WITH 3D WEBGL • GSAP SCROLLTRIGGER</span>
+    </div>
+  </footer>
+
+  <!-- GSAP & Three.js CDN Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
